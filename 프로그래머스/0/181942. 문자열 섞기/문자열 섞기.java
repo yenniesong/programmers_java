@@ -16,3 +16,16 @@ class Solution {
         return answer;
     }
 }
+
+// 다른 방법의 풀이 (공부하면 좋을 코드)
+// class Solution {
+//     public String solution(String str1, String str2) {
+        
+//         String answer = "";
+//         for(int i = 0; i < str1.length(); i++){
+//             answer += String.valueOf(str1.charAt(i)) + str2.charAt(i);
+//         }
+        
+//         return answer;
+//     }
+// }
